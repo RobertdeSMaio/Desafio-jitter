@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const OrderController = require("../controllers/OrderController");
 const authMiddleware = require("../middlewares/auth");
+const AuthController = require("../controllers/AuthController");
 
 // Rota protegida: O usuário precisa enviar o Token para criar um pedido
 router.post("/", authMiddleware, OrderController.create);
