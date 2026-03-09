@@ -9,7 +9,6 @@ const sequelize = new Sequelize(process.env.DATABASE_URL, {
       rejectUnauthorized: false,
     },
   },
-  // Reduza o tempo de espera para o erro aparecer mais rápido se falhar
   pool: {
     max: 5,
     min: 0,
