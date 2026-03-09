@@ -5,8 +5,8 @@ const Users = require("../models/Users");
 class AuthController {
   async login(req, res) {
     const { username, password } = req.body;
-
-    try {
+      // Procura se já existe o username
+    try { 
       const user = await Users.findByPk(username);
 
       if (!user) {
