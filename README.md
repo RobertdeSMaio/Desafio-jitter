@@ -58,7 +58,6 @@ Crie um arquivo `.env` na raiz do projeto:
 ```env
 DATABASE_URL=postgresql://usuario:senha@host/banco?sslmode=require
 JWT_SECRET=sua_chave_secreta_aqui
-PORT=3000
 ```
 
 > A `DATABASE_URL` pode ser obtida no painel do [Neon](https://neon.tech) em **Connection Details → Connection string**.
