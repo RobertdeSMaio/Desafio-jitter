@@ -204,7 +204,3 @@ Acesse `http://localhost:3000/api-docs` para visualizar e testar todos os endpoi
 
 ---
 
-## 👤 Autor
-
-**Robert de S. Maio**  
-[github.com/RobertdeSMaio](https://github.com/RobertdeSMaio)
